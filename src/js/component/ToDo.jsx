@@ -1,8 +1,6 @@
 import React, { useEffect, useState } from "react";
 
-//TO DO LIST WITH FETCH
-//https://assets.breatheco.de/apis/fake/todos/
-//https://reqbin.com/
+//TO DO LIST WITH REACT
 
 function ToDo() {
 	//useStates
