@@ -1,18 +1,37 @@
+
 @import "~bootstrap/scss/bootstrap.scss";
 
 .container{
-    background: white;
+    background: lightcoral;
     align-self: center;
     justify-content: center;  
+    margin-top: 100px;
 }
 
 h1{
     text-align: center;
-    color: deeppink;
+    color: rgb(10, 124, 153);
     font-family: fantasy;
 }
 
-#tasksBox{
-    background: white;
-    margin-top: 15px;
+li {
+    position: relative;
+    border-bottom: 1px solid lightseagreen;
+    color: rgb(10, 124, 153)
+}
+
+.myIcon{
+    position: absolute;
+    top: 0;
+    right: 0;
+    color:rgb(10, 124, 153);
+    opacity: 0;
+}
+
+.myIcon:hover{
+    position: absolute;
+    top: 0;
+    right: 0;
+    color:rgb(10, 124, 153);
+    opacity: 1;
 }

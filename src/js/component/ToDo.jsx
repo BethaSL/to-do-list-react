@@ -55,14 +55,9 @@ function ToDo() {
 							return (
 								<li
 									key={index}
-									onClick={() => handleDeleteTask(index)}
-									/*className={
-										xButton === index
-											? "fas fa-times"
-											: "noInTask"
-									}*/
-								>
+									onClick={() => handleDeleteTask(index)}>
 									{task}
+									<i className="fas fa-check myIcon"></i>
 								</li>
 							);
 						})}
